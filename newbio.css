@@ -1,0 +1,237 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.container-cv{
+    display: flex;
+    border: 2px solid black;
+    border: none;
+}
+.first-grid{
+    background-color: rgb(17, 14, 14);
+    width: 35%;
+}
+.second-grid{
+    width: 65%;
+}
+.first-line{
+    padding-left: 2rem;
+}
+.first-line img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-left: 25%;
+    margin-bottom: 19rem;
+    margin-top: 2rem;
+    
+}
+.first-line h4{
+    font-size: 2.3rem;
+    color: #22a8e6;
+    font-weight: 100;
+    letter-spacing: 0.2rem;
+    border-bottom: 4px solid #22a8e6;
+    width: 4rem;
+    margin-bottom: 2rem;
+}
+.education{
+    font-size: 1.8rem;
+    font-weight: 100;
+    letter-spacing: 3px;
+    width: 20rem;
+    color: #fff;
+    margin-top: 2rem;
+}
+.education p{
+    font-size: 1.1rem;
+}
+.skills h3{
+    color: #22a8e6;
+    margin-top: 3.7rem;
+    font-size: 2.4rem;
+    font-weight: 100;
+    border-bottom: 3px solid #22a8e6;
+    width: 50px;
+}
+
+.skills p{
+    font-size: 1.3rem;
+    margin: 10px 0px 30px;
+    color: #fff;
+}
+.skills-list{
+    border-radius: 20px;
+    margin: 0px 25px 11px 0px;
+    padding: 2px 10px;
+    display: flex;
+    gap: 1rem;
+    background-color: #fff;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+
+
+.skills-list p{
+   margin: 0;
+}
+.skills-list .fa-circle{
+    padding: 5px 0 0 0px;
+}
+.golo-icon{
+    font-size: 14px;
+}
+
+.icons p{
+    font-size: 13px;
+}
+
+.icons i {
+    margin-left: 5px;
+    font-size: 20px;
+}
+.icons{
+    display: flex;
+    padding: 1rem;
+    gap: 2rem;
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: 200;
+    border-bottom: 2px solid #fff;
+    padding-bottom: 0.6rem;
+}
+.Extracurriclar h3{
+    color: #22a8e6;
+    margin: 3.6rem 0 2rem 2rem;
+    font-size: 2rem;
+    font-weight: 100;
+    border-bottom: 3px solid #22a8e6;
+    width: 50px;
+}
+.Extracurriclar li{
+    font-size: 1rem;
+    margin: 1rem 0 0 2rem;
+    color: #fff;
+}
+
+/* Second grid */
+.details{
+    margin-left: 1rem;
+    
+}
+.details h3{
+    font-size: 4rem;
+    width: 3rem;
+    color: #a8a392;
+}
+.details p{
+    font-size: 1.7rem;
+    margin-bottom: 13rem;
+}
+
+.details h5{
+    font-size: 2rem;
+    letter-spacing: 5px;
+    word-spacing: 10px;
+    border-bottom: 2px solid black;
+    /* width: 600px; */
+    margin-top: 17rem;
+}
+.work-expeiance{
+    display: flex;
+    gap: 2rem;
+    margin-left: 1.2rem;
+}
+.work-expeiance p{
+    font-size: 1rem;
+    border-right: 2px solid black;
+    padding-right: 20px;
+    margin: 1rem 0rem ;
+}
+.works h5{
+    font-size: 1.3rem;
+    margin-top: 14px;
+    text-transform: uppercase;
+    /* margin-left: -12px; */
+}
+.works h6{
+    font-size: 0.7rem;
+    margin-top: 5px;
+    font-weight: 200;
+    /* margin-left: -12px; */
+}
+.works p{
+    font-size: 0.8rem;
+    line-height: 1.3rem;
+    /* padding: 1rem;
+    margin-left: -10px; */
+}
+.all-archive{
+    margin-left: 9rem;
+}
+.award h3{
+    font-size: 1.5rem;
+    border-bottom: 3px solid black;
+    /* width: 45rem;    */
+    margin: 20px 0px 1.5rem -35px;
+}
+.award li{
+    font-size: 15px;
+    margin-left: -5px;
+}
+.references{
+    margin-top: 20px;
+}
+.references h3{
+    font-size: 1.6rem;
+    border-bottom: 3px solid black;
+    margin: 20px 0px 1.5rem -30px;
+}
+.references .main{
+    font-size: 1.2rem;
+    margin:  10px 0px 10px -5px;
+}
+.references h4, h5{
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+}
+.references p{
+    padding: 0.1rem;
+    line-height: 20px;
+    font-size: 15px;
+}
+.declaration h3{
+    font-size: 1.6rem;
+    border-bottom: 3px solid black;
+    margin: 20px 0px 1.5rem -30px;
+}
+.declaration p{
+    line-height: 20px;
+}
+/* second grid end */
+/* last  */
+
+
+.profile{
+    position: absolute;
+    top: 14rem;
+    background-color: #377abd;
+    padding: 1rem;
+}
+.profile h3{
+    font-size: 2.2rem;
+    color: #fff;
+    margin-left: 1.2rem;
+    border-bottom: 2px solid #fff;
+    width: 45px;
+}
+
+.profile p{
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    margin: 1rem 1rem;
+    color: #fff;
+} 
